@@ -11,7 +11,7 @@ import {
 
 // If running locally with a local version of the to-do server,
 // change this URL to http://localhost:4000
-const serverURL = "https://uofye.sse.codesandbox.io/";
+const serverURL = "http://localhost:4000";
 
 const client = new ApolloClient({
 	uri: serverURL,
